@@ -2,7 +2,7 @@ import { ArrowRight, Flame, BarChart3, LayoutDashboard, Zap } from "lucide-react
 
 export default function Hero() {
     return (
-        <section className="relative pt-12 pb-20 overflow-hidden bg-linear-to-b from-white to-surface-beige/30">
+        <section className="relative pt-12 pb-12 overflow-hidden bg-linear-to-b from-white to-surface-beige/30">
             <div className="container mx-auto px-4 text-center">
 
                 {/* Badge */}
