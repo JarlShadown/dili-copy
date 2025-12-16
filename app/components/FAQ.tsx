@@ -15,7 +15,7 @@ export default function FAQ() {
     const [openIndex, setOpenIndex] = useState<number | null>(0);
 
     return (
-        <section id="faq" className="py-24 bg-surface-beige/30">
+        <section id="faq" className="py-16 bg-surface-beige/30">
             <div className="container mx-auto px-4 max-w-3xl">
                 <h2 className="text-3xl font-bold text-center mb-12">Preguntas Frecuentes</h2>
 

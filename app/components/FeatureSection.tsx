@@ -18,7 +18,7 @@ export default function FeatureSection({
     reversed = false
 }: FeatureSectionProps) {
     return (
-        <section className="py-24 overflow-hidden">
+        <section className="py-16 overflow-hidden">
             <div className="container mx-auto px-4">
                 <div className={cn(
                     "flex flex-col lg:flex-row items-center gap-16",

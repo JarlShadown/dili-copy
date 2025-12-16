@@ -1,6 +1,6 @@
 export default function CtaSection() {
     return (
-        <section className="bg-white py-24 px-4">
+        <section className="bg-white py-16 px-4">
             <div className="container mx-auto max-w-4xl text-center">
                 <div className="flex flex-col gap-6 items-center">
                     {/* Heading */}

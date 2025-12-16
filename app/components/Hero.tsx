@@ -2,7 +2,7 @@ import { ArrowRight, Flame, BarChart3, LayoutDashboard, Zap } from "lucide-react
 
 export default function Hero() {
     return (
-        <section className="relative pt-20 pb-32 overflow-hidden bg-linear-to-b from-white to-surface-beige/30">
+        <section className="relative pt-12 pb-20 overflow-hidden bg-linear-to-b from-white to-surface-beige/30">
             <div className="container mx-auto px-4 text-center">
 
                 {/* Badge */}
@@ -25,7 +25,7 @@ export default function Hero() {
                 </p>
 
                 {/* CTA */}
-                <div className="flex items-center justify-center mb-16">
+                <div className="flex items-center justify-center mb-10">
                     <button className="px-6 py-3 text-base font-semibold text-white bg-black rounded-lg hover:bg-gray-800 transition-all shadow-md flex items-center gap-2">
                         Empezar Gratis <ArrowRight size={18} />
                     </button>
@@ -45,7 +45,7 @@ export default function Hero() {
                 </div>
 
                 {/* Social Proof */}
-                <div className="mt-16 flex flex-col items-center">
+                <div className="mt-10 flex flex-col items-center">
                     <p className="text-sm font-bold text-gray-900 mb-8">
                         <span className="text-primary">Más de 50+ negocios</span> venden más rápido con Dili
                     </p>

@@ -21,10 +21,10 @@ export default function Testimonials() {
     ];
 
     return (
-        <section className="py-24 bg-surface-beige/50">
+        <section className="py-16 bg-surface-beige/50">
             <div className="container mx-auto px-4">
                 {/* Section Header */}
-                <div className="text-center mb-16">
+                <div className="text-center mb-10">
                     <h2 className="text-3xl md:text-5xl font-bold mb-6">
                         En cada paso. En cada logro.<br />
                         Dili es tu <span className="text-primary">aliado confiable.</span>

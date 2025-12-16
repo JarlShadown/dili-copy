@@ -4,13 +4,13 @@ import { Instagram, Linkedin, Youtube, Twitter } from "lucide-react";
 
 export default function Footer() {
     return (
-        <footer className="bg-[#1a1a1a] text-white pt-24 pb-8">
+        <footer className="bg-[#1a1a1a] text-white pt-16 pb-8">
             <div className="container mx-auto px-4">
 
                 {/* Banner CTA Removed - Moved to CtaSection.tsx */}
 
                 {/* Main Footer Content */}
-                <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-16">
+                <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-10">
                     {/* Logo */}
                     <div className="shrink-0">
                         <Image src="/dili_Orange.svg" alt="Dili Logo" width={80} height={32} className="h-8 w-auto brightness-0 invert" />
